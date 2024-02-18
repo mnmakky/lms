@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% extends "index_new.html" %}
+{% load static %}
+
+{% block main_content %}
+<div class="jumbotron">
+<div class="container">
+    <img src="{% static '/lms_logo3.jpg' %}" class="rounded flaot-start" alt="lms" height="200" style="margin-right: 10px">
+     <h1 style="color: white;" class="display-4">Welcome To Imagineer Library </h1>
+         <p style="color: white;">Welcome to our digital library! Dive into a world of knowledge and imagination where every click unlocks a new adventure.</p>
+         <p><a role="button" href="#" class="btn btn-dark">Browse our collection>></a></p>
+</div>
+</div>
+ <div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Why reading in important</h2>
+        <p>Reading is the gateway to endless possibilities. It broadens perspectives, fosters empathy,
+            and nurtures critical thinking skills. Through books, we embark on journeys to new worlds,
+            learn from diverse voices, and gain insights into ourselves and others. At our library, we
+            champion reading as a fundamental tool for personal growth, lifelong learning, and societal
+            progress. Join us in celebrating the transformative power of literature and unlocking the
+            boundless potential that lies within the pages of a book.
+        </p>
+    </div>
+    <div class="col">
+      <h2>Key benefits</h2>
+        <ul>
+            <li>Knowledge Expansion:
+                Reading broadens horizons by exposing us to diverse ideas, cultures, and perspectives.</li>
+           <li> Enhanced Vocabulary:
+            Regular reading enriches language skills, improving communication and comprehension abilities.</li>
+            <li>Critical Thinking:
+            Engaging with complex narratives stimulates analytical thinking and problem-solving skills.</li>
+           <li> Empathy Development:
+            Immersing ourselves in characters' experiences fosters empathy and understanding of others' viewpoints.</li>
+            <li>Stress Reduction:
+            Reading offers a calming escape from daily pressures, promoting relaxation and mental well-being.
+            Cognitive Stimulation: Keeping our minds active through reading helps maintain cognitive function and memory retention.</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h2>Thought for the day</h2>
+        <p>Our library is more than just a collection of books; it's a vibrant hub of knowledge and exploration.
+            Here, readers of all ages and interests come together to embark on journeys of discovery and learning.
+            With a diverse range of titles spanning various genres, our library caters to the diverse interests and
+            preferences of our community members. Whether you're seeking a thrilling adventure, a deep dive into history,
+            or a quiet corner to study, our doors are open to all. Our dedicated staff is always ready to assist you in
+            finding the perfect read or navigating our extensive resources. Join us in celebrating the joy of reading and
+            the boundless possibilities that await within the pages of a book at our library.</p>
+    </div>
+  </div>
+         <hr>
+</div>
+</main>
+     <div>
+     <footer class="container">
+         <p>
+             Library 2024
+         </p>
+     </footer>
+     </div>
+
+
+ {% endblock %}
